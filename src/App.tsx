@@ -1,24 +1,26 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './styles/css/styles.css';
+import {Header} from "./components/header"
+import { Intro } from './components/intro';
+import { Plans } from './components/plans';
+import { Singers } from './components/singers';
+import { Others } from './components/others';
+import { Devices } from './components/devices';
+import { Footer } from './components/footer';
 
+
+//rafc
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+     <Header/>
+     <Intro/>
+     <Plans/>
+     <Singers/>
+     <Others/>
+     <Devices/>
+     <Footer/>
     </div>
   );
 }

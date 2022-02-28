@@ -1,0 +1,19 @@
+.plans {
+  height: fit-content;
+  padding: 10rem 0;
+}
+.plans_wrapper {
+  @include flex(center, center, column);
+}
+.plans_cards {
+  height: 100%;
+  width: 100%;
+  @include flex(center, center, row);
+  flex-wrap: wrap;
+  row-gap: 4rem;
+}
+
+.plans_button {
+  margin-top: 6.6rem;
+  background: linear-gradient(180deg, #c157ab, #fb85a1);
+}

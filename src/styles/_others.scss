@@ -1,0 +1,13 @@
+.others {
+  padding-top: 11.9rem;
+  height: fit-content;
+  @include flex(space-between, center, column);
+  text-align: center;
+  row-gap: 6.6rem;
+}
+.others_main {
+  p {
+    width: 60%;
+    margin: auto;
+  }
+}

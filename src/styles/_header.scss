@@ -1,0 +1,26 @@
+.header {
+  margin: 0;
+  background: linear-gradient(180deg, #240030 10%,rgb(53, 0, 85) 100%);
+  border: none;
+
+  z-index: 99;
+  top: 0;
+  position: sticky;
+  .header_wrapper {
+
+    @include flex(space-around, center, row);
+  }
+  .header_logo {
+    flex: 3;
+    text-align: center;
+    position: relative;
+  }
+}
+.header_features {
+  @include flex(space-between, center, row);
+  flex: 4;
+}
+.header_socials {
+  @include flex(space-around, center, row);
+  flex: 4;
+}

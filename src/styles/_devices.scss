@@ -1,0 +1,34 @@
+.devices {
+ // padding-top: 23.3rem;
+  min-height: 90vh;
+  height: 90vh;
+  
+  img {
+    position: absolute;
+  }
+}
+.devices_wrapper {
+    height: 100%;
+  position: relative;
+  @include flex(space-between, center, row);
+}
+
+.devices_main {
+  //прибрать!
+  width: 60%;
+
+  p {
+    float: left;
+    width: 60%;
+    margin: auto;
+  }
+}
+.devices_phone {
+  top: 30.2rem;
+  right: 43rem;
+  z-index: 9;
+}
+.devices_desktop {
+  right: 2.7rem;
+  top:27.3rem;
+}

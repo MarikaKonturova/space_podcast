@@ -1,0 +1,37 @@
+.footer {
+  padding-top: 16.5rem;
+  background-color: #11024b;
+}
+.footer_wrapper {
+  @include flex(space-between, flex-start, row);
+  column-gap: 2rem;
+  padding-bottom: 10.7rem;
+}
+.footer_logo {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  flex: 2;
+  text-align: center;
+  z-index: 1;
+}
+#footer__logo{
+   top: 4rem;
+}
+.links {
+  flex: 1;
+  @include flex(space-between, flex-start, column);
+  font-size: $header5;
+  row-gap: 2.9rem;
+}
+.links_name {
+  color: #3531a9;
+}
+.copyright {
+  background-color: #09002b;
+  width: 100%;
+  font-size: 1rem;
+  font-family: $sf-font;
+  text-align: center;
+  padding: 1.15rem 0;
+}

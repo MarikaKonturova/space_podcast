@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+//убрать лишние точки, если неправильный путь
+@font-face {
+	font-family: 'SF-Pro';
+	src: url('../../assets/fonts/SF-Pro-Display-Regular.eot');
+	src: local('☺'), url('../../assets/fonts/SF-Pro-Display-Regular.woff') format('woff'), url('../../assets/fonts/SF-Pro-Display-Regular.ttf') format('truetype'), url('../../assets/fonts/SF-Pro-Display-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'SF-Pro';
+	src: url('../../assets/fonts/SF-Pro-Display-Medium.eot');
+	src: local('☺'), url('../../assets/fonts/SF-Pro-Display-Medium.woff') format('woff'), url('../../assets/fonts/SF-Pro-Display-Medium.ttf') format('truetype'), url('../../assets/fonts/SF-Pro-Display-Medium.svg') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'SF-Pro';
+	src: url('../../assets/fonts/SF-Pro-Display-Bold.eot');
+	src: local('☺'), url('../../assets/fonts/SF-Pro-Display-Bold.woff') format('woff'), url('../../assets/fonts/SF-Pro-Display-Bold.ttf') format('truetype'), url('../../assets/fonts/SF-Pro-Display-Bold.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+$wrapper: 9.7rem;
+$header1: 6.4rem;
+$header2: 4.8rem;
+$header3: 3.6rem;
+$header4: 3rem;
+$header5: 1.8rem;
+$text: 1.6rem;
+$sf-font: 'SF-Pro', sans-serif;
+$cav-font: 'Caveat', cursive;
+$c-dark:#09002b;
+$c-medium:#11024b;
+$c-header: #280434;
+$c-card:linear-gradient(180deg, #3531A9 0%, #4303A4 100%);
+$c-button: linear-gradient(180deg, #C157AB 0%, #FB85A1 100%);
+
+@mixin flex($justify, $align, $direction) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+    flex-direction: $direction;
+  }
+
+  
+@import 'global';
+@import 'header';
+@import 'intro';
+@import 'plans';
+@import 'singers';
+@import 'others';
+@import 'devices';
+@import 'footer';

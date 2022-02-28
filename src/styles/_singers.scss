@@ -1,0 +1,25 @@
+.singers {
+    min-height: 50vh;
+  @include flex(space-between, center, row);
+  background-color: #11024b;
+}
+.singers_main {
+  width: 100%;
+  height: 100%;
+  padding: 0 25.3rem 0 10rem;
+  @include flex(center, flex-start, column);
+  row-gap: 2rem;
+  flex: 1;
+}
+.singers_img {
+
+  flex: 1;
+  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+.singers_button {
+  background-color: #3531a9;
+}

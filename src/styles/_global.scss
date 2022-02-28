@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  background-color: $c-dark;
+  color: #fff;
+}
+
+body {
+  font-family: $sf-font, serif;
+  animation: opening 1s ease-in-out;
+}
+a {
+  text-decoration: none;
+}
+a:active, a:visited{
+  color: white;
+}
+li {
+  list-style-type: none;
+}
+
+h1 {
+  font-size: $header1;
+  font-weight: bold;
+}
+h2 {
+  font-size: $header2;
+  font-weight: bold;
+}
+h3 {
+  font-size: $header3;
+  font-weight: bold;
+}
+h4 {
+  font-size: $header4;
+  font-weight: bold;
+}
+h5 {
+  font-size: $header5;
+  font-weight: bold;
+}
+p {
+  font-size: $text;
+}
+
+.wrapper {
+  padding: 0 $wrapper;
+  height: 100%;
+  width: 100%;
+}
+.logo {
+  font-family: $cav-font;
+  font-size: 4.6rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+.logo_ellipse {
+  height: 4.27rem;
+  width: 10.08rem;
+  border-radius: 117px/50px;
+  background: #3531a9;
+  transform: rotate(-30deg);
+  position: absolute;
+  top: -2px;
+  left: 12px;
+  z-index: -1;
+}
+.card {
+  @include flex(space-around, center, column);
+  text-align: center;
+  padding: 0 2.5rem;
+  height: 34.4rem;
+  width: 27.5rem;
+  box-shadow: -3px 4px 42px 0px rgba(34, 60, 80, 0.2);
+  border-radius: 2.5rem;
+  background: linear-gradient(
+    135deg,
+    rgba(53, 49, 169, 1) 37%,
+    rgba(67, 4, 164, 1) 100%
+  );
+  margin: 0 2rem;
+}
+.button {
+  border-radius: 0.5rem;
+  width: 13rem;
+  height: 4.3rem;
+  padding: 0 0.5rem;
+  border: none;
+  color: white;
+  font-family: $sf-font;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+

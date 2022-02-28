@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/space_podcast/static/css/main.837b57b7.css",
+    "main.js": "/space_podcast/static/js/main.30828ccb.js",
+    "static/js/787.3326d06b.chunk.js": "/space_podcast/static/js/787.3326d06b.chunk.js",
+    "static/media/introImg.svg": "/space_podcast/static/media/introImg.6131a27d6340858fb7ca.svg",
+    "static/media/desktop.svg": "/space_podcast/static/media/desktop.aa171f1b8eb9bbb3b768713b0fe5c792.svg",
+    "static/media/SF-Pro-Display-Bold.eot": "/space_podcast/static/media/SF-Pro-Display-Bold.31fc6e7e1d20f7173771.eot",
+    "static/media/SF-Pro-Display-Bold.ttf": "/space_podcast/static/media/SF-Pro-Display-Bold.24a41bdf13263031121c.ttf",
+    "static/media/SF-Pro-Display-Medium.eot": "/space_podcast/static/media/SF-Pro-Display-Medium.0da05c69a1b51638c4ab.eot",
+    "static/media/SF-Pro-Display-Medium.ttf": "/space_podcast/static/media/SF-Pro-Display-Medium.938f42f9b66ba10ad7f3.ttf",
+    "static/media/SF-Pro-Display-Regular.eot": "/space_podcast/static/media/SF-Pro-Display-Regular.db690c5b35000fa68e5c.eot",
+    "static/media/SF-Pro-Display-Regular.ttf": "/space_podcast/static/media/SF-Pro-Display-Regular.50d6da7adb06a10e0625.ttf",
+    "static/media/phone.svg": "/space_podcast/static/media/phone.eaec8e29b0150744bd5e362604ff72a5.svg",
+    "static/media/SF-Pro-Display-Medium.svg": "/space_podcast/static/media/SF-Pro-Display-Medium.b85d841dacb040b84951.svg",
+    "static/media/SF-Pro-Display-Bold.svg": "/space_podcast/static/media/SF-Pro-Display-Bold.b1f4d2c69fa808ebca12.svg",
+    "static/media/SF-Pro-Display-Regular.svg": "/space_podcast/static/media/SF-Pro-Display-Regular.d1f5e6e16dd4f75c3950.svg",
+    "static/media/photo.png": "/space_podcast/static/media/photo.825c3acbf883322176ec.png",
+    "static/media/SF-Pro-Display-Medium.woff": "/space_podcast/static/media/SF-Pro-Display-Medium.cd11ca7ad204e0633040.woff",
+    "static/media/SF-Pro-Display-Bold.woff": "/space_podcast/static/media/SF-Pro-Display-Bold.b40dcad4ce3f5d715a0f.woff",
+    "static/media/SF-Pro-Display-Regular.woff": "/space_podcast/static/media/SF-Pro-Display-Regular.cfdfb1f00cf9221b82ce.woff",
+    "static/media/girls.svg": "/space_podcast/static/media/girls.6759a168cbb51dbdbb6934145d02036b.svg",
+    "static/media/podcast.svg": "/space_podcast/static/media/podcast.afd7233ead24faac35ed367018f1a25a.svg",
+    "static/media/instagram.svg": "/space_podcast/static/media/instagram.88c933492f8fd5424f1f7c58e5aa94b3.svg",
+    "static/media/spotify.svg": "/space_podcast/static/media/spotify.c2e061e2c4109dc94feeca6cea8daac4.svg",
+    "static/media/calendar.svg": "/space_podcast/static/media/calendar.739fb086fd2f448722b5ecb49e777e60.svg",
+    "index.html": "/space_podcast/index.html",
+    "static/media/facebook.svg": "/space_podcast/static/media/facebook.3d9fe2a512028873a89782f694774cf1.svg",
+    "main.837b57b7.css.map": "/space_podcast/static/css/main.837b57b7.css.map",
+    "main.30828ccb.js.map": "/space_podcast/static/js/main.30828ccb.js.map",
+    "787.3326d06b.chunk.js.map": "/space_podcast/static/js/787.3326d06b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.837b57b7.css",
+    "static/js/main.30828ccb.js"
+  ]
+}

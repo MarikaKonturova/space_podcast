@@ -1,20 +1,19 @@
 .devices {
- // padding-top: 23.3rem;
+  // padding-top: 23.3rem;
   min-height: 90vh;
   height: 90vh;
-  
+
   img {
     position: absolute;
   }
 }
 .devices_wrapper {
-    height: 100%;
+  height: 100%;
   position: relative;
   @include flex(space-between, center, row);
 }
 
 .devices_main {
-  //прибрать!
   width: 60%;
 
   p {
@@ -24,11 +23,139 @@
   }
 }
 .devices_phone {
-  top: 30.2rem;
-  right: 43rem;
+  width: 30rem;
+  top: 36.2rem;
+  right: 74rem;
   z-index: 9;
 }
 .devices_desktop {
-  right: 2.7rem;
-  top:27.3rem;
+  height: 46rem;
+  right: 16.7rem;
+  top: 27.3rem;
+}
+
+@media screen and (max-width: 1680px) {
+  .devices_main {
+    width: 70%;
+  }
+  .devices_phone {
+    width: 20rem;
+    top: 32.2rem;
+    right: 50rem;
+    z-index: 9;
+  }
+  .devices_desktop {
+    height: 30rem;
+    right: 12.7rem;
+    top: 27.3rem;
+  }
+}
+
+@media screen and (max-width: 1358px) {
+  .devices_main {
+    width: 50%;
+  }
+  .devices_phone {
+    width: 20rem;
+    top: 32.2rem;
+    right: 38rem;
+    z-index: 9;
+  }
+  .devices_desktop {
+    height: 30rem;
+    right: 2.7rem;
+    top: 27.3rem;
+  }
+}
+@media screen and (max-width: 1085px) {
+  .devices_wrapper {
+    align-items: flex-start;
+  }
+  .devices_main {
+    width: 100%;
+    text-align: center;
+    padding-top: 20rem;
+    p {
+      float: none;
+    }
+  }
+  .devices_phone {
+    width: 20rem;
+    top: 43.2rem;
+    left: 0;
+    right: -38rem;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 9;
+  }
+  .devices_desktop {
+    height: 30rem;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 38.3rem;
+  }
+}
+@media screen and (max-width: 791px) {
+  .devices_main {
+    p {
+      width: 100%;
+    }
+  }
+}
+@media screen and (max-width: 585px) {
+  .devices_main {
+    h2 {
+      width: 100%;
+      font-size: 3.6rem;
+    }
+    p {
+      font-size: 1.6rem;
+      width: 100%;
+    }
+  }
+}
+@media screen and (max-width: 530px) {
+  .devices_phone {
+    width: 14rem;
+    top: 44.2rem;
+    left: 0;
+    right: -34rem;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 9;
+  }
+  .devices_desktop {
+    height: 23rem;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 38.3rem;
+  }
+}
+@media screen and (max-width:431px) {
+  .devices_main{
+    h2{
+      font-size: 3rem
+    }
+  }
+  .devices_phone {
+    width: 11rem;
+    top: 45.2rem;
+    left: 0;
+    right: -20rem;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 9;
+  }
+  .devices_desktop {
+    height: 20rem;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 38.3rem;
+  }
 }

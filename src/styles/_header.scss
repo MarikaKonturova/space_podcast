@@ -1,13 +1,13 @@
 .header {
+  padding: 0.8rem 0;
   margin: 0;
-  background: linear-gradient(180deg, #240030 10%,rgb(53, 0, 85) 100%);
+  background: linear-gradient(180deg, #240030 10%, rgb(53, 0, 85) 100%);
   border: none;
 
   z-index: 99;
   top: 0;
   position: sticky;
   .header_wrapper {
-
     @include flex(space-around, center, row);
   }
   .header_logo {
@@ -24,3 +24,108 @@
   @include flex(space-around, center, row);
   flex: 4;
 }
+.burger span {
+  padding: 0.1rem 1.5rem;
+  background: whitesmoke;
+  margin: 0.5rem 0;
+  display: block;
+}
+.close {
+  z-index: 99;
+  position: absolute;
+  right: 13vw;
+  top: calc(5vh+1rem);
+  width: 3.2rem;
+  height: 3.2rem;
+}
+.close:before,
+.close:after {
+  position: absolute;
+  left: 1.5rem;
+  content: " ";
+  height: 3.3rem;
+  width: 0.2rem;
+  background-color: whitesmoke;
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
+}
+.burger, .close {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  .header {
+    .wrapper {
+      padding: 0 5rem;
+    }
+  }
+}
+@media screen and (max-width: 640px) {
+  .header {
+    .wrapper {
+      padding: 0 3rem;
+    }
+  }
+}
+@media screen and (max-width: 640px) {
+  .burger, .close {
+    display: inline-block;
+  }
+  .header_small_off {
+    .wrapper{
+      padding: 0 0 0 0;
+   
+    }
+    .header_features {
+      display: none;
+    }
+    .header_logo{
+      display: none;
+    }
+    .header_socials{
+    padding-left: 2rem;
+    justify-content: flex-start;
+    column-gap: 2.5rem;
+    }
+    .burger{
+      right: 13vw;
+      position: absolute;
+    }
+    }
+  }
+  .header_small_on {
+    .wrapper {
+    
+      @include flex(space-around, center, column);
+      height: 100vh;
+    }
+    .header_features {
+      @include flex(space-around, center, column);
+      flex: 2;
+      h5 {
+        font-size: 3.5rem;
+      }
+    }
+    .header_socials {
+      width: 100%;
+      flex: 1;
+      @include flex(space-around, center, row);
+      img {
+        height: 5rem;
+      }
+    }
+    .header_logo {
+      display: none;
+    }
+    .close,
+    .burger {
+      top: 4%;
+      position: absolute;
+      right: 8vw;
+    }
+  }
+

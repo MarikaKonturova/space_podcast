@@ -44,8 +44,8 @@ export const Footer = () => {
         </ul>
         <div className="footer_logo">
           <div className="logo" id='footer__logo'>
-            <h6 className="logo_name">Podcaster</h6>
-            <div className="logo_ellipse" />
+            <h6 className="logo_name" id='footer__logo_h6'>Podcaster</h6>
+            <div className="logo_ellipse" id='footer__logo_ellipse'/>
           </div>
         </div>
         

@@ -3,7 +3,7 @@ import podcast from "../assets/img/podcast.svg";
 
 export const Intro = () => {
   return (
-    <section className="intro">
+    <section className="intro" id='intro'>
       <div className="wrapper">
         <div className="intro_main">
           <h1>Night Podcast</h1>

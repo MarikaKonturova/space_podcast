@@ -3,7 +3,7 @@ import calendar from "../assets/icons/calendar.svg";
 
 export const Plans = ({ data = dataPlans }: { data?: planType[] }) => {
   return (
-    <section className="plans">
+    <section className="plans" id="plans">
       <div className="wrapper plans_wrapper">
         <div className="plans_cards">
           {data.map((p) => (

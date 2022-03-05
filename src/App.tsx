@@ -8,18 +8,24 @@ import { Singers } from './components/singers';
 import { Others } from './components/others';
 import { Devices } from './components/devices';
 import { Footer } from './components/footer';
-
+import ScrollReveal from './containers/ScrollReveal'
 
 //rafc
 function App() {
   return (
     <div className="app">
      <Header/>
+     <ScrollReveal>
      <Intro/>
+     </ScrollReveal>
+     <ScrollReveal>
      <Plans/>
+     </ScrollReveal>
      <Singers/>
      <Others/>
+     <ScrollReveal>
      <Devices/>
+     </ScrollReveal>
      <Footer/>
     </div>
   );

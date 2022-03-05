@@ -17,6 +17,8 @@ body {
 }
 a {
   text-decoration: none;
+  color: white;
+
 }
 a:active, a:visited{
   color: white;
@@ -89,6 +91,7 @@ p {
     rgba(67, 4, 164, 1) 100%
   );
   margin: 0 2rem;
+  transition: all 150ms ease-in-out; 
 }
 .button {
   border-radius: 0.5rem;
@@ -100,5 +103,10 @@ p {
   font-family: $sf-font;
   font-size: 1.8rem;
   font-weight: 400;
+  transition: all 150ms ease;
+  cursor: pointer;
+  &:hover{
+    transform: scale(1.15);
+  }
 }
 

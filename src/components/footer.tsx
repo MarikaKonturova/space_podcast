@@ -8,18 +8,18 @@ export const Footer = () => {
         <ul className="links">
           <li className="links_name">Navigation</li>
           <li className="links_link">
-            <a href="" target="_blank">
+            <a href="#intro" >
               Home
             </a>
           </li>
           <li className="links_link">
-            <a href="" target="_blank">
-              Articles
+            <a href="#plans" >
+              Plans
             </a>
           </li>
           <li className="links_link">
-            <a href="" target="_blank">
-              Blog
+            <a href="#singers" >
+              Singers
             </a>
           </li>
         </ul>

@@ -6,10 +6,12 @@ import spotify from "../assets/icons/spotify.svg";
 export const Header = () => {
   const [open, setOpen] = useState(false);
   return (
-    <header className={`header ${ open ?`header_small_on` : `header_small_off`}`}>
+    <header
+      className={`header ${open ? `header_small_on` : `header_small_off`}`}
+    >
       <div className="wrapper header_wrapper">
-      <div
-          className={!open ? 'burger' : 'close'}
+        <div
+          className={!open ? "burger" : "close"}
           onClick={() => setOpen(!open)}
         >
           <span></span>
@@ -18,13 +20,19 @@ export const Header = () => {
         </div>
         <ul className="header_features">
           <li className="header_feature">
-            <h5>Home</h5>
+            <a href="#intro">
+              <h5>Home</h5>
+            </a>
           </li>
           <li className="header_feature">
-            <h5>Articles</h5>
+            <a href="#plans">
+              <h5>Plans</h5>
+            </a>
           </li>
           <li className="header_feature">
-            <h5>Blog</h5>
+            <a href="#singers">
+              <h5>Singers</h5>
+            </a>
           </li>
         </ul>
         <div className="header_logo">
@@ -40,7 +48,6 @@ export const Header = () => {
           <a href="#" target="_blank">
             <img src={spotify} alt="social-media" />
           </a>
-         
         </div>
       </div>
     </header>

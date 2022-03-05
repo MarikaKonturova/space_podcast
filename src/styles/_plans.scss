@@ -17,3 +17,12 @@
   margin-top: 6.6rem;
   background: linear-gradient(180deg, #c157ab, #fb85a1);
 }
+
+.plans_cards:hover > .card:hover {
+  transform: scale(1.15);
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  z-index: 10;
+}
+.plans_cards:hover > .card:not(:hover) {
+  opacity: 0.5;
+}

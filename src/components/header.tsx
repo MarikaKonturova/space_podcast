@@ -20,17 +20,17 @@ export const Header = () => {
         </div>
         <ul className="header_features">
           <li className="header_feature">
-            <a href="#intro">
+            <a href="#intro" onClick={() => setOpen(!open)}>
               <h5>Home</h5>
             </a>
           </li>
           <li className="header_feature">
-            <a href="#plans">
+            <a href="#plans" onClick={() => setOpen(!open)}>
               <h5>Plans</h5>
             </a>
           </li>
           <li className="header_feature">
-            <a href="#singers">
+            <a href="#singers" onClick={() => setOpen(!open)}>
               <h5>Singers</h5>
             </a>
           </li>

@@ -4,7 +4,7 @@
   img {
     margin: 0;
   }
-  background-image: url("../../assets/img/introImg.svg");
+  background-image: url("../../assets/img/introImg.png");
   //background: linear-gradient( url("../../assets/img/introImg.svg"), transparent) ;
   background-position: center;
   background-size: cover;
@@ -38,15 +38,14 @@
 @media screen and (max-width: 605px) {
   .intro_main {
     padding-top: 13rem;
-    
+
     h1 {
-      font-size: $header3+1rem;
+      font-size: $header3 + 1rem;
     }
     h3 {
       padding-top: 1rem;
-  
 
-      font-size: $header5+1rem;
+      font-size: $header5 + 1rem;
     }
     img {
       padding-top: 1rem;
@@ -55,18 +54,17 @@
   }
 }
 @media screen and (max-width: 489px) {
-  .wrapper{
+  .wrapper {
     padding: 3rem;
   }
   .intro_main {
     padding-top: 13rem;
-    
+
     h1 {
       font-size: $header3;
     }
     h3 {
       padding-top: 1rem;
-  
 
       font-size: $header5;
     }
@@ -76,5 +74,3 @@
     }
   }
 }
-
-

@@ -32,7 +32,7 @@
 }
 
 @media screen and (max-width: 1159px) {
-  .singers{
+  .singers {
     height: 50vh;
   }
   .singers_main {
@@ -57,7 +57,7 @@
     position: absolute;
     h2 {
       text-align: center;
-      
+
       padding: 1rem;
     }
     p {
@@ -98,10 +98,9 @@
       text-align: center;
     }
   }
-  .singers_img{
-    img{
-      object-fit: calc(cover-10px);
-      
+  .singers_img {
+    img {
+      object-fit: calc(cover - 10px);
     }
     &:before {
       content: "";
@@ -111,6 +110,5 @@
       background-color: rgba(19, 16, 105, 0.473);
       z-index: 2;
     }
-    
   }
 }
